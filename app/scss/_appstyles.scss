@@ -1,0 +1,26 @@
+/* all app scss styles here */
+
+@import "compass/css3";
+@import "compass/utilities";
+
+#main {
+  height: 300px;
+  background: rgba(0,0,0,0.05);
+
+  img {
+    max-height: 360px;
+  }
+}
+
+#contact {
+  background: #085a78;
+
+  h3, a {
+    text-align: center;
+    color: white;
+  }
+
+  a {
+    font-weight: 100;
+  }
+}
